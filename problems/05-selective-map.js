@@ -69,7 +69,7 @@ function flipSign(n) {
 }
 
 console.log(selectiveMap([8, 5, 10, 4], isEven, square));
-// [ 64, 5, 100, 16 ]
+// [ 64, 100, 16 ]
 
 console.log(selectiveMap([-10, 4, 7, 6, -2, -9], isEven, flipSign));
 // [ 10, -4, 7, -6, 2, -9 ]
